@@ -16,7 +16,6 @@ body {
     height: 490px;
     margin: auto;
     padding: 0px;
-    background-color: black;
     border-radius: 15px;
     box-shadow: 7px 6px 34px -1px rgba(0,0,0,0.8);
     overflow: hidden;
@@ -116,4 +115,12 @@ button:hover {
     cursor: pointer;
     transform: scale(1.1);
     background-color: #33ff33;
+}
+
+@media (max-width: 670px) {
+    #bottom-left, #bottom-right, .card {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 }
